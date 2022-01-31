@@ -1,7 +1,7 @@
 ---
 title: My Goals
 layout: template
-filename: howto
+filename: Goals
 --- 
 
 <h1>My Goals</h1>
