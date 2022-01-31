@@ -1,7 +1,7 @@
 ---
 title: Contact and Links
 layout: template
-filename: contact.md
+filename: contact
 --- 
 
 <h1>Contact and Links</h1>
