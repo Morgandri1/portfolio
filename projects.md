@@ -1,7 +1,7 @@
 ---
 title: My Projects
 layout: template
-filename: Projects
+filename: projects
 --- 
 <p>
 My main project, and that which im most proud of; is called PassPY. It's a simple to use, free password manager built from the ground up for simplicity. in order to do this, I needed some basic UX experience, and it was a way for me to learn applicable python. 
