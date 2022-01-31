@@ -1,4 +1,8 @@
-<title>Morgan's Portfolio </title>
+---
+title: Morgan's Portfolio
+layout: template
+filename: index
+--- 
 <h1>Hi, I'm Morgan. I'm a student</h1>
 <p>
  I like to solve problems with programs and designs that are purpose built, and easy to use, and I take pride and initiative with my work.
