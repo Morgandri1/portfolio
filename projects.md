@@ -9,13 +9,13 @@ My main project, and that which im most proud of; is called PassPY. It's a simpl
 <br>My other projects:
 <br>  • <a>https://github.com/Morgandri1/passPy</a>
 <br>The website I programmed for PassPY.
-<br>  • <https://github.com/Morgandri1/EasyCam></a>
+<br>  • <a>https://github.com/Morgandri1/EasyCam</a>
 <br>A facial recognition algorithm that sends pings to a client.
-<br>  • <https://github.com/PassPY-co> 
+<br>  • <a>https://github.com/PassPY-co</a>
 <br>The GitHub organization for all of PassPY.
-<br>  • <https://github.com/Morgandri1/northstar-bot></a>
+<br>  • <a>https://github.com/Morgandri1/northstar-bot</a>
 <br>My discord bot!
 <br>I've also contributed to these projects:
-<br>  • <https://github.com/jersson/web-scraping-intro/issues/1></a>
+<br>  • <a>https://github.com/jersson/web-scraping-intro/issues/1</a>
 <br>A web scraping program.
 </p>
