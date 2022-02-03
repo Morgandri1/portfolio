@@ -9,7 +9,7 @@ My main project, and that which im most proud of, is called PassPY. It's a simpl
 <br>  
 <br>My other projects:
 <br>  
-<br>  • <a>https://github.com/Morgandri1/passPy</a>
+<br>  • <a>https://morgandri1.github.io/passPy</a>
 <br>The website I programmed for PassPY.
 <br>  
 <br>  • <a>https://github.com/Morgandri1/EasyCam</a>
