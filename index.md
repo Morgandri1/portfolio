@@ -10,7 +10,7 @@ filename: index
 I’m interested in broadening my skills through the coding and development of apps that provide functional solutions to real-world problems.
 <h2>Skills</h2>
 •Python 3
-•Computer hardware/software
-•Mobile device hardware/software
-•Windows 10 and MacOS X 
+<br>•Computer hardware/software
+<br>•Mobile device hardware/software
+<br>•Windows 10 and MacOS X 
 <p>
