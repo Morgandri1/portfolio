@@ -20,6 +20,9 @@ My main project, and that which im most proud of, is called PassPY. It's a simpl
 <br>  
 <br>  • <a>https://github.com/Morgandri1/northstar-bot</a>
 <br>My discord bot!
+<br>
+<br>  • <a>https://github.com/Morgandri1/wordle-cheats</a>
+<br> A solver for the popular game wordle
 <br>  
 <br>I've also contributed to these projects:
 <br>
