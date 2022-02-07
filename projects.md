@@ -22,6 +22,9 @@ My main project, and that which im most proud of, is called PassPY. It's a simpl
 <br>My discord bot!
 <br>  
 <br>I've also contributed to these projects:
+<br>
+<br>  • <a>https://github.com/ArisuUwU/Data2PNG/pull/2</a>
+<br>A super cool program made to convert images to data and back to images
 <br>  
 <br>  • <a>https://github.com/jersson/web-scraping-intro/issues/1</a>
 <br>A web scraping program.
