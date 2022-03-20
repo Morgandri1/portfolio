@@ -14,3 +14,7 @@ I’m interested in broadening my skills through the coding and development of a
 <br>•Mobile device hardware/software
 <br>•Windows 10 and MacOS X 
 <p>
+  <footer>
+    <p>Support me!</p>
+    <p><a href="https://www.patreon.com/bePatron?u=57950012" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script></p>
+  </footer>
