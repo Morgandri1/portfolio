@@ -18,39 +18,22 @@ const introdata = {
 };
 
 const dataabout = {
-  title: "abit about my self",
+  title: "Introduction",
   aboutme:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    "I’m a young, but experienced backend/api developer who has spent the last 5 years working on blockchain systems and building web3 technology. As of June 2026, I will have been building production (backend) systems for 5 years, as well as having had contributed to open source projects, 6 years of experience with python, and 4 years of experience with rust. This, combined with my previous experience working on large scale distributed systems and my out-of-the-box thinking, has lead me to become an extremely capable developer even at a young age.",
 };
-const worktimeline = [
-  {
-    jobtitle: "Designer of week",
-    where: "YAdfi",
-    date: "2020",
-  },
-  {
-    jobtitle: "Designer of week",
-    where: "Jamalya",
-    date: "2019",
-  },
-  {
-    jobtitle: "Designer of week",
-    where: "ALquds",
-    date: "2019",
-  },
-];
 
 const skills = [
   {
-    name: "Python",
+    name: "API Development",
     value: 90,
   },
   {
-    name: "Djano",
-    value: 85,
+    name: "Smart Contract Development",
+    value: 80,
   },
   {
-    name: "Javascript",
+    name: "Typescript",
     value: 80,
   },
   {
@@ -58,102 +41,72 @@ const skills = [
     value: 60,
   },
   {
-    name: "Jquery",
+    name: "Rust",
     value: 85,
+  },
+  {
+    name: "Python",
+    value: 100,
   },
 ];
 
 const services = [
   {
     title: "UI & UX Design",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+    description: "Web, Mobile, Systems, and more.",
   },
   {
     title: "Mobile Apps",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+    description: "Mobile apps built in React Native or Swift.",
   },
   {
-    title: "Wordpress Design",
+    title: "API/Backend development",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+      "Backend systems architecture, building APIs, writing documentation, protobuf, etc.",
   },
 ];
 
 const dataportfolio = [
   {
-    img: "https://picsum.photos/400/?grayscale",
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
+    img: "/rift.png",
+    description: "Mobile Web3 IRL event planner",
     link: "#",
   },
   {
-    img: "https://picsum.photos/400/800/?grayscale",
+    img: "/stakit.jpeg",
     description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+      "A cross-chain automated staking platform made to make staking cheaper and easier",
+    link: "https://stakit.live",
   },
   {
-    img: "https://picsum.photos/400/?grayscale",
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    img: "/nebula.jpeg",
+    description: "An Injective NFT marketplace and infrastructure provider",
+    link: "https://github.com/Nebula-Marketplace",
   },
   {
-    img: "https://picsum.photos/400/600/?grayscale",
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
+    img: "/copperhead.jpeg",
+    description: "A solana-based development agency later acquired by EYEKON",
     link: "#",
+    onClick: () => {
+      alert("No maintained website for copperhead after being EOLed by EYEKON");
+    },
   },
   {
-    img: "https://picsum.photos/400/300/?grayscale",
+    img: "/eyekon_inverse.png",
     description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+      "A solana, matic, and injective advisory agency who acquired Copperhead Software in 2023. The Copperhead Acquisition allowed them to add a (now EOL) SaaS branch.",
+    link: "https://twitter.com/eyekonnft",
   },
   {
-    img: "https://picsum.photos/400/700/?grayscale",
+    img: "/unison.png",
     description:
-      "The wisdom of life consists in the elimination of non-essentials.",
+      "A multichain wallet operating on 16 different chains. Never saw light of day due to founder (and funding) disapearance. I built an intricate API to allow users to interact with different chains easily.",
     link: "#",
-  },
-
-  {
-    img: "https://picsum.photos/400/600/?grayscale",
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/300/?grayscale",
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/?grayscale",
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/550/?grayscale",
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/?grayscale",
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/700/?grayscale",
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    onClick: () => {
+      alert(
+        "There is no maintained website for unison after funding was rugged.",
+      );
+    },
   },
 ];
 
@@ -172,12 +125,12 @@ const socialprofils = {
   github: "https://github.com/morgandri1",
   linkedin: "https://linkedin.com/in/morgandri1",
   twitter: "https://twitter.com/Morgandri1dev",
+  resume: "",
 };
 export {
   meta,
   dataabout,
   dataportfolio,
-  worktimeline,
   skills,
   services,
   introdata,
