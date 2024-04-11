@@ -1,14 +1,17 @@
 .sec_sp {
     margin-bottom: calc(3rem + 5.128vw)
+    cursor: auto
 }
 
 .table td,
 .table th {
     color: var(--text-color);
+    cursor: auto
 }
 
 .t_border {
     border-color: var(--text-color) !important;
+    cursor: auto
 }
 
 .progress-title {
@@ -16,6 +19,7 @@
     font-weight: 700;
     margin: 15px 0 20px;
     font-family: 'Raleway';
+    cursor: auto
 }
 
 .progress {
@@ -25,6 +29,7 @@
     box-shadow: none;
     margin-bottom: 30px;
     overflow: visible;
+    cursor: auto
 }
 
 .progress .progress-bar {
@@ -33,6 +38,7 @@
     animation: animate-positive 2s;
     overflow: visible;
     opacity: 0.9;
+    cursor: auto
 }
 
 .progress .progress-value {
@@ -43,6 +49,7 @@
     font-weight: bold;
     font-style: italic;
     color: var(--text-color);
+    cursor: auto
 }
 
 @-webkit-keyframes animate-positive {
@@ -59,15 +66,18 @@
 
 .section-title {
     font-size: 45px;
+    cursor: auto
 }
 
 .service__title {
     padding: 8px 0;
     border-bottom: solid 2px var(--secondary-color);
+    cursor: auto
 }
 
 .service-section .service-category-title {
     padding-bottom: 4px;
+    cursor: auto
 }
 
 

@@ -7,9 +7,11 @@
     height: 50px;
     align-items: center;
     padding-left: 10px;
+    cursor: auto;
 }
 
 .theme_toggler svg {
     width: 2em;
     height: 2em;
+    cursor: auto;
 }

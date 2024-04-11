@@ -21,6 +21,7 @@
 html,
 body {
     height: 100%;
+    cursor: pointer;
 }
 
 body {
@@ -30,12 +31,13 @@ body {
     overflow-y: visible;
     background-color: var(--bg-color);
     color: var(--text-color);
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     padding-top: 60px;
     border-left: 10px solid var(--primary-color);
     border-right: 10px solid var(--primary-color);
+    cursor: pointer;
 }
 
 ul {
@@ -71,7 +73,8 @@ p {
 }
 
 code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
 }
 
 .cursor__dot div {

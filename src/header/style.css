@@ -2,16 +2,19 @@
     top: 10px;
     padding-left: 10px;
     padding-right: 10px;
+    cursor: auto;
 }
 
 .menu__button {
     color: var(--text-color);
+    cursor: auto;
 }
 
 .menu__button:focus,
 .menu__button:hover {
     color: var(--text-color);
     box-shadow: unset;
+    cursor: auto;
 }
 
 .menu__button svg {
@@ -19,6 +22,7 @@
     height: 2em;
     fill: var(--text-color-2);
     color: var(--text-color-2);
+    cursor: auto;
 }
 
 .nav_ac {
@@ -33,10 +37,12 @@
     height: 50px;
     font-weight: bold;
     z-index: 1000;
+    cursor: auto;
 }
 
 .nav_ac:hover {
     color: var(--text-color-2);
+    cursor: auto;
 }
 
 .br-top,
@@ -46,6 +52,7 @@
     position: fixed;
     z-index: 999999;
     background: var(--primary-color);
+    cursor: auto;
 }
 
 .br-top {
@@ -53,6 +60,7 @@
     height: 10px;
     left: 0;
     width: 100%;
+    cursor: auto;
 }
 
 .br-bottom {
@@ -60,6 +68,7 @@
     left: 0;
     height: 10px;
     width: 100%;
+    cursor: auto;
 }
 
 .br-right {
@@ -67,6 +76,7 @@
     right: 0;
     top: 0;
     height: 100%;
+    cursor: auto;
 }
 
 .br-left {
@@ -74,6 +84,7 @@
     left: 0;
     top: 0;
     height: 100%;
+    cursor: auto;
 }
 
 .cortina__wrapper-menu {
@@ -83,6 +94,7 @@
     padding-bottom: 3em;
     height: 100%;
     overflow-y: auto;
+    cursor: auto;
 }
 
 .site__navigation {
@@ -93,10 +105,12 @@
     top: 0;
     width: 100%;
     visibility: hidden;
+    cursor: auto;
 }
 
 .menu__opend {
     visibility: visible !important;
+    cursor: auto;
 }
 
 .main__menu_ul,
@@ -107,10 +121,12 @@
     transition-delay: 0s;
     visibility: hidden;
     z-index: 100;
+    cursor: auto;
 }
 
 .menu_right {
     text-align: center;
+    cursor: auto;
 }
 
 .site__navigation.menu__opend .main__menu_ul,
@@ -118,11 +134,13 @@
     opacity: 1;
     transition-delay: 0.6s;
     visibility: visible;
+    cursor: auto;
 }
 
 .site__navigation .main__menu_ul li {
     list-style: none;
     margin: 10px 0;
+    cursor: auto;
 }
 
 .site__navigation .main__menu_ul li a {
@@ -130,6 +148,7 @@
     display: block;
     font-size: 2.5rem;
     text-decoration: none;
+    cursor: auto;
 }
 
 .bg__menu {
@@ -141,11 +160,13 @@
     background-color: var(--primary-color);
     will-change: transform;
     transform: translateY(-100%);
-    transition: .5s ease all;
+    transition: 0.5s ease all;
+    cursor: auto;
 }
 
 .menu__opend .bg__menu {
     transform: translateY(0);
+    cursor: auto;
 }
 
 .menu__wrapper {
@@ -153,12 +174,14 @@
     width: 100%;
     height: 100%;
     overflow: hidden auto;
+    cursor: auto;
 }
 
 .the_menu {
     padding-top: 20vh;
     padding-bottom: 20vh;
     padding-left: 0;
+    cursor: auto;
 }
 
 @media (min-width: 992px) {
@@ -171,7 +194,7 @@
     }
 }
 
-.the_menu .menu_item>a {
+.the_menu .menu_item > a {
     color: var(--text-color-2);
     line-height: 1;
     font-size: 2rem;
@@ -181,14 +204,16 @@
     padding: 4px 0px;
     text-decoration: none;
     font-family: Marcellus;
+    cursor: auto;
 }
 
-.the_menu .menu_item>a:hover {
+.the_menu .menu_item > a:hover {
     color: var(--text-color-3);
+    cursor: auto;
 }
 
 @media (min-width: 768px) {
-    .the_menu .menu_item>a {
+    .the_menu .menu_item > a {
         font-size: 4.8vw;
     }
 }
@@ -198,10 +223,12 @@
     font-family: Marcellus;
     font-size: 14px;
     background: var(--primary-color);
+    cursor: auto;
 }
 
 .menu_footer a {
     color: var(--text-color-2);
     margin-right: 10px;
     text-decoration: none;
+    cursor: auto;
 }

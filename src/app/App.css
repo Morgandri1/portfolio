@@ -6,11 +6,13 @@
 
 .page-enter {
     transform: translateY(100%);
+    cursor: auto;
 }
 
 .page-enter-active {
     transform: translateY(0%);
     transition: all 400ms ease-out;
+    cursor: auto;
 }
 
 .page-exit {
@@ -19,6 +21,7 @@
     left: 0;
     right: 0;
     top: 0;
+    cursor: auto;
 }
 
 .page-exit-active {
@@ -28,6 +31,7 @@
     top: 0;
     transform: translateY(-130%);
     transition: all 400ms ease-out;
+    cursor: auto;
 }
 
 @media (min-width: 1400px) {
