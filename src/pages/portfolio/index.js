@@ -26,9 +26,9 @@ export const Portfolio = () => {
                 <img src={data.img} alt="" />
                 <div className="content">
                   <p>{data.description}</p>
-                  <a href={data.link} onClick={data.onClick}>
+                  {!!data.link && (<a href={data.link} onClick={data.onClick}>
                     view project
-                  </a>
+                  </a>)}
                 </div>
               </div>
             );
