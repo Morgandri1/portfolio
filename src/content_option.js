@@ -72,6 +72,11 @@ const services = [
 
 const dataportfolio = [
   {
+    img: "/ultra.png",
+    description: "Solana Crosschain Lending Aggregator",
+    link: "beta.ultra.markets",
+  },
+  {
     img: "/rift.png",
     description: "Mobile Web3 IRL event planner",
     link: "",
