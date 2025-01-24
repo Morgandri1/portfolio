@@ -74,7 +74,7 @@ const dataportfolio = [
   {
     img: "/ultra.png",
     description: "Solana Crosschain Lending Aggregator",
-    link: "beta.ultra.markets",
+    link: "https://beta.ultra.markets",
   },
   {
     img: "/rift.png",
