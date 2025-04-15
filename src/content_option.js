@@ -135,7 +135,7 @@ const socialprofils = {
   linkedin: "https://linkedin.com/in/morgandri1",
   twitter: "https://twitter.com/Morgandri1dev",
   resume:
-    "https://www.figma.com/file/MXL9pOctmp2UXZ2hrLrtwT/Resume?type=design&node-id=102%3A2&mode=design&t=eS7tEVe4jmC4b6re-1",
+    "https://docs.google.com/document/d/1yWORq7MPF6WEdnojFJMYW_YwYKJr_9T5L9bIDfonAdg/edit?usp=sharing",
 };
 export {
   meta,
