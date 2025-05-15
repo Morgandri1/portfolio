@@ -125,7 +125,7 @@ const contactConfig = {
   description: "Text or email me at any time with any questions.",
   // creat an emailjs.com account
   // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-  YOUR_SERVICE_ID: "service_x6fdyom",
+  YOUR_SERVICE_ID: "service_rvkk75f",
   YOUR_TEMPLATE_ID: "template_7lyjuwu",
   YOUR_USER_ID: "93j0pl248GyGT_N2o",
 };
