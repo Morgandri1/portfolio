@@ -20,7 +20,7 @@ const introdata = {
 const dataabout = {
   title: "Introduction",
   aboutme:
-    "I’m a young, but experienced backend/api developer who has spent the last 2 years working on blockchain systems and building web3 technology. As of June 2026, I will have been building production (backend) systems for 5 years, as well as having had contributed to open source projects, 6 years of experience with python, and 4 years of experience with rust. This, combined with my previous experience working on large scale distributed systems and my out-of-the-box thinking, has allowed me to become an extremely capable developer even at a young age.",
+    "I’m a young, but experienced backend/api developer who has spent the last 3 years working on blockchain systems and building web3 technology. I have a passion for Open Source and Security, having won several CyberSecurity competitions while in school, as well as contributing to my favorite Open Source projects. This, combined with my previous experience working on large scale distributed systems and my out-of-the-box thinking, has positioned me to be a well-rounded engineer while still early in my career.",
 };
 
 const skills = [
