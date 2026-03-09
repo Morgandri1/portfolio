@@ -72,6 +72,11 @@ const services = [
 
 const dataportfolio = [
   {
+    img: "/hydex.png",
+    description: "<encrypted> tech on solana. Bridging Zcash privately, liquid staking, private transfers, and fully encrypted name service, all on chain completely stateless.",
+    link: "https://hydex.io",
+  },
+  {
     img: "/ultra.png",
     description: "Solana Crosschain Lending Aggregator",
     link: "https://beta.ultra.markets",
