@@ -90,7 +90,7 @@ const dataportfolio = [
     img: "/stakit.jpeg",
     description:
       "A cross-chain automated staking platform made to make staking cheaper and easier",
-    link: "https://stakit.live",
+    link: "https://stakit.com",
   },
   {
     img: "/nebula.jpeg",
