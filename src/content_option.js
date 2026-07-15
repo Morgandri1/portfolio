@@ -72,6 +72,11 @@ const services = [
 
 const dataportfolio = [
   {
+    img: "/avo.jpg",
+    description: "fully transparent, on-chain, agent powered trading on solana.",
+    link: "https://avo.so"
+  },
+  {
     img: "/hydex.jpg",
     description: "<encrypted> tech on solana. Bridging Zcash privately, liquid staking, private transfers, and fully encrypted name service, all on chain completely stateless.",
     link: "https://hydex.io",
