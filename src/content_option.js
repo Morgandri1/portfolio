@@ -87,11 +87,6 @@ const dataportfolio = [
     link: "https://beta.ultra.markets",
   },
   {
-    img: "/rift.png",
-    description: "Mobile Web3 IRL event planner",
-    link: "",
-  },
-  {
     img: "/stakit.jpeg",
     description:
       "A cross-chain automated staking platform made to make staking cheaper and easier",
@@ -103,30 +98,11 @@ const dataportfolio = [
     link: "https://github.com/Nebula-Marketplace",
   },
   {
-    img: "/copperhead.jpeg",
-    description: "A solana-based development agency later acquired by EYEKON",
-    link: "",
-    onClick: () => {
-      alert("No maintained website for copperhead after being EOLed by EYEKON");
-    },
-  },
-  {
     img: "/eyekon_inverse.png",
     description:
       "A solana, matic, and injective advisory agency who acquired Copperhead Software in 2023. The Copperhead Acquisition allowed them to add a (now EOL) SaaS branch.",
     link: "https://twitter.com/eyekonnft",
-  },
-  {
-    img: "/unison.png",
-    description:
-      "A multichain wallet operating on 16 different chains. Never saw light of day due to founder (and funding) disapearance. I built an intricate API to allow users to interact with different chains easily.",
-    link: "",
-    onClick: () => {
-      alert(
-        "There is no maintained website for unison after funding was rugged.",
-      );
-    },
-  },
+  }
 ];
 
 const contactConfig = {
