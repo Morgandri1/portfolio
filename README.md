@@ -1,38 +1,27 @@
-### Description
+# Morgan Metz — Portfolio
 
-A simple portfolio template for developer/designers built with React. 
+Single-page portfolio built with React (Create React App). Dark "Nocturne"
+look: flow-field backdrop, magnetic hero type, an orbital section nav and a
+thread that draws itself down the page as you scroll.
 
-### [live preview](https://ubaimutl.github.io/react-portfolio/)
+## Develop
 
-[![react portfoiio](src/assets/images/react%20portfolio%20gif.gif)](https://ubaimutl.github.io/react-portfolio/)
+```sh
+npm install
+npm start
+```
 
-### Features
+## Deploy
 
-- Fully Responsive
-- Multi-Page Layout
-- Contact Form With EmailJs
-- React-Bootstrap
-- Edit Content From One Place
+```sh
+npm run deploy   # builds and pushes ./build to gh-pages
+```
 
-### Setup
+## Editing content
 
-Get the code
+All copy, links, jobs, projects and testimonials live in
+`src/content_option.js`. Images go in `public/assets/`; point the `src`
+fields at them (paths are relative to `public/`). Slots without a source
+render a labelled placeholder.
 
-<pre>git clone https://github.com/ubaimutl/react-portfolio.git</pre>
- 
-Install required dependencies
-
-<pre>yarn install</pre>
-
-
-Start the server
-
-<pre>yarn start</pre>
-
-### More
-
-Modify pages content in  `src/content_option.js`.
-
-### Thanks
-
-If you like this portfolio template don't forget give it a ⭐ 
+Layout and tokens live in `src/index.css`; sections are in `src/sections/`.

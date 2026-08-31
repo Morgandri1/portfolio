@@ -1,27 +1,34 @@
-import React, { useEffect } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter as Router, useLocation } from "react-router-dom";
-import withRouter from "../hooks/withRouter";
-import AppRoutes from "./routes";
-import Headermain from "../header";
-import "./App.css";
-
-function _ScrollToTop(props) {
-  const { pathname } = useLocation();
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
-  return props.children;
-}
-const ScrollToTop = withRouter(_ScrollToTop);
+import React from "react";
+import Backdrop from "../components/Backdrop";
+import OrbitNav from "../components/OrbitNav";
+import Thread from "../components/Thread";
+import Hero from "../sections/Hero";
+import Work from "../sections/Work";
+import Playground from "../sections/Playground";
+import About from "../sections/About";
+import Experience from "../sections/Experience";
+import Quotes from "../sections/Quotes";
+import Now from "../sections/Now";
+import Contact from "../sections/Contact";
 
 export default function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
-      <ScrollToTop>
-        <Headermain />
-        <AppRoutes />
-      </ScrollToTop>
-    </Router>
+    <>
+      <Backdrop />
+      <OrbitNav />
+      <div className="mm-page">
+        <Thread />
+        <main className="mm-main">
+          <Hero />
+          <Work />
+          <Playground />
+          <About />
+          <Experience />
+          <Quotes />
+          <Now />
+          <Contact />
+        </main>
+      </div>
+    </>
   );
 }
