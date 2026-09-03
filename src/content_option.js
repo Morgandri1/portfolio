@@ -248,7 +248,7 @@ const contact = {
   links: [
     { label: "GitHub", url: "https://github.com/morgandri1" },
     { label: "LinkedIn", url: "https://linkedin.com/in/morgandri1" },
-    { label: "X", url: "https://x.com/morgandri1" },
+    { label: "X", url: "https://x.com/morgandri1dev" },
     { label: "Résumé", url: "/assets/cv.pdf" },
   ],
   footerLeft: "© 2026 Morgan Metz · Charlottesville, VA",
