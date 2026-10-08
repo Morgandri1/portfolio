@@ -114,7 +114,7 @@ const playground = {
     },
     {
       icon: "detective",
-      kicker: "Research · public good",
+      kicker: "Research",
       title: "SandwichRelay",
       body:
         "MEV research fork of the Jito relayer that detects sandwich-attack vectors by parsing swaps and analyzing slippage exposure.",
