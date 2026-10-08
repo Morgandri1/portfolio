@@ -279,9 +279,19 @@ button { font: inherit; }
 .mm-stats { display: flex; gap: 44px; margin-top: 44px; flex-wrap: wrap; }
 .mm-stat-n { font-family: var(--font-heading); font-size: 40px; font-weight: 500; color: var(--color-accent-300); }
 .mm-stat-label { font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--color-neutral-500); margin-top: 4px; }
-.mm-portrait { width: 100%; max-width: 340px; justify-self: end; height: 420px; }
-.mm-portrait .mm-slot { border-radius: 8px; }
+.mm-portrait {
+  width: 100%;
+  max-width: 340px;
+  justify-self: end;
+  aspect-ratio: 4 / 5;      /* replaces height: 420px */
+}
+.mm-portrait .mm-slot img {
+  object-position: 65% 70%; /* keep the crop on you: right of center, low */
+}
 
+@media (max-width: 900px) {
+  .mm-portrait { justify-self: start; } /* remove height: 360px */
+}
 /* ── Experience ─────────────────────────────────────────────────────────── */
 .mm-experience { padding: 0 var(--gutter) 120px; }
 .mm-experience .mm-section-head { margin-bottom: 60px; }
