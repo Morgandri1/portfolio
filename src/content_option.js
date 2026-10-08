@@ -108,9 +108,9 @@ const playground = {
     {
       icon: "strategy",
       kicker: "Pet project",
-      title: "SolChess",
+      title: "ObjScript",
       body:
-        "P2P chess with SOL and USDC stakes on Elo-rated games. Engine, processing, UI, ratings, house bots and anticheat, all from scratch.",
+        "A proof of concept JSON DSL scripting language to allow agents to build extremely portable scripts, written (mostly) by hand on an airplane",
     },
     {
       icon: "detective",
