@@ -17,12 +17,8 @@ npm start
 
 ## Deploy
 
-```sh
-npm run deploy   # builds and pushes ./build to gh-pages
-```
-
-`/resume` works on GitHub Pages because `predeploy` copies `index.html` to
-`404.html`.
+Hosted on Vercel: pushing to `master` deploys. `vercel.json` rewrites
+`/resume` to `index.html` so the route loads directly.
 
 ## Editing content
 
