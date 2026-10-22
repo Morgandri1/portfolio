@@ -1,8 +1,12 @@
 # Morgan Metz — Portfolio
 
-Single-page portfolio built with React (Create React App). Dark "Nocturne"
-look: flow-field backdrop, magnetic hero type, an orbital section nav and a
-thread that draws itself down the page as you scroll.
+Personal site built with React (Create React App). Two pages:
+
+- `/` — homepage, design **3b Single column** (dark, small type, no imagery)
+- `/resume` — one-page printable resume, design **1f Ledger** (print it from
+  the browser for a US Letter PDF)
+
+The design references live in `design_handoff_morgan_metz_site_resume/`.
 
 ## Develop
 
@@ -17,11 +21,14 @@ npm start
 npm run deploy   # builds and pushes ./build to gh-pages
 ```
 
+`/resume` works on GitHub Pages because `predeploy` copies `index.html` to
+`404.html`.
+
 ## Editing content
 
-All copy, links, jobs, projects and testimonials live in
-`src/content_option.js`. Images go in `public/assets/`; point the `src`
-fields at them (paths are relative to `public/`). Slots without a source
-render a labelled placeholder.
+All copy, links, jobs and resume entries live in `src/content_option.js`.
+Jobs are shared: `years` shows on the homepage, `dates` and `points` on the
+resume. The downloadable PDF is `public/assets/MorganMetz_Resume_2026.pdf`.
+If you change the resume copy, re-export it and replace that file.
 
-Layout and tokens live in `src/index.css`; sections are in `src/sections/`.
+Tokens and layout live in `src/index.css`; pages are in `src/pages/`.
