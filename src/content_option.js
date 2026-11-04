@@ -25,6 +25,7 @@ const home = {
 const openSource = "Zed, Solders, interactions.py, Fusion Core Finance";
 
 // `years` is shown on the homepage, `dates` and `points` on the resume.
+// `homeOnly` entries are listed on the homepage but not under Experience.
 const jobs = [
   {
     company: "Avo",
@@ -48,6 +49,12 @@ const jobs = [
       "Shipped security and efficiency improvements to Hydentity and the Hydex Router",
       "Designed and built the Hydex Name Service: a fully on-chain, stateless, encrypted naming service on Solana",
     ],
+  },
+  {
+    company: "Nebula",
+    role: "Founder, acquired by Talis",
+    years: "2023 – 2024",
+    homeOnly: true,
   },
   {
     company: "CargoLabs",
@@ -88,16 +95,16 @@ const resume = {
     "Blockchain and systems engineer: Solana smart contracts, platform security and high-TVL infrastructure. Shipped contracts securing $30M+ and owned security for a full platform relaunch.",
   projects: [
     {
+      name: "Nebula",
+      text: "Acquired by Talis in 2024. Open-source NFT marketplace on CosmWasm: stateless collection management, minting and exchange. $75K+ TVL in under three months.",
+    },
+    {
       name: "SolChess",
       text: "P2P chess for SOL and USDC on Elo-rated games, with in-house bots. Engine, matchmaking, UI, rating and anticheat built from scratch.",
     },
     {
       name: "SandwichRelay",
       text: "MEV research: a Jito relayer fork that detects sandwich attacks by parsing swaps from major providers and analyzing slippage. Built the analysis contracts, transaction builder and a custom TPU step to study on-chain MEV exposure.",
-    },
-    {
-      name: "Nebula",
-      text: "Open-source NFT marketplace on CosmWasm: stateless collection management, minting and exchange. $75K+ TVL in under three months.",
     },
   ],
   skills:
