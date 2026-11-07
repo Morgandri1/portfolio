@@ -56,7 +56,7 @@ const jobs = [
     role: "Founder, acquired by",
     acquirer: { name: "Talis", url: "https://talis.art/" },
     years: "2023 – 2024",
-    dates: "2023 – 2024",
+    dates: "Jun 2023 – Jan 2024",
     points: ["Open-source NFT marketplace on CosmWasm; $75K+ TVL within three months"],
   },
   {
