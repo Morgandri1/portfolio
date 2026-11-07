@@ -46,13 +46,22 @@ export default function Resume() {
           <div className="cv-row cv-section cv-section-open">
             <Label>Experience</Label>
           </div>
-          {jobs.filter((job) => !job.homeOnly).map((job) => (
+          {jobs.map((job) => (
             <div className="cv-row cv-entry cv-job" key={job.company}>
               <span className="muted">{job.dates}</span>
               <div className="cv-job-body">
                 <div>
                   <span className="strong">{job.company}</span>
-                  <span className="muted"> · {job.role}</span>
+                  <span className="muted">
+                    {" · "}
+                    {job.role}
+                    {job.acquirer && (
+                      <>
+                        {" "}
+                        <a href={job.acquirer.url}>{job.acquirer.name}</a>
+                      </>
+                    )}
+                  </span>
                 </div>
                 {job.points.map((point) => (
                   <div className="cv-bullet" key={point}>

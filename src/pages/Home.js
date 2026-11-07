@@ -8,7 +8,8 @@ export default function Home() {
     <div className="home">
       <main className="home-col">
         <p>{home.greeting}</p>
-        <p>
+        <p>{home.aside}</p>
+        <p className="muted">
           {home.intro.map((part, i) =>
             part === "github" ? (
               <a key={i} className="link-underline" href={links.github}>
@@ -19,13 +20,22 @@ export default function Home() {
             )
           )}
         </p>
-        <p className="muted">{home.aside}</p>
 
         <div className="work">
           {jobs.map((job) => (
             <div className="work-row" key={job.company}>
               <span className="work-company">{job.company}</span>
-              <span className="work-role muted">{job.role}</span>
+              <span className="work-role muted">
+                {job.role}
+                {job.acquirer && (
+                  <>
+                    {" "}
+                    <a className="link-underline" href={job.acquirer.url}>
+                      {job.acquirer.name}
+                    </a>
+                  </>
+                )}
+              </span>
               <span className="work-years muted">{job.years}</span>
             </div>
           ))}

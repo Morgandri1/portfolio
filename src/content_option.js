@@ -11,6 +11,7 @@ const links = {
 };
 
 // Homepage (design 3b). `github` marks where the inline GitHub link goes.
+// `aside` comes first on the page, then `intro`.
 const home = {
   greeting: "Hi, I'm Morgan.",
   intro: [
@@ -25,7 +26,7 @@ const home = {
 const openSource = "Zed, Solders, interactions.py, Fusion Core Finance";
 
 // `years` is shown on the homepage, `dates` and `points` on the resume.
-// `homeOnly` entries are listed on the homepage but not under Experience.
+// `acquirer` is appended to `role` as a link.
 const jobs = [
   {
     company: "Avo",
@@ -35,7 +36,7 @@ const jobs = [
     points: [
       "Rebuilt Avo's core infrastructure for the v3 launch",
       "Wrote the Anchor smart contracts holding $30M+ in platform TVL",
-      "Built observability, metrics and error handling for a large distributed system",
+      "Built observability, metrics and error handling across a distributed system",
       "Owned platform security for v3: audited every service, contract and endpoint; added internal access controls to contain lateral movement",
     ],
   },
@@ -46,15 +47,25 @@ const jobs = [
     dates: "Dec 2025 – Aug 2026",
     points: [
       "Helped architect the off-chain and MPC integrations powering the hySOL LST",
-      "Shipped security and efficiency improvements to Hydentity and the Hydex Router",
-      "Designed and built the Hydex Name Service: a fully on-chain, stateless, encrypted naming service on Solana",
+      "Shipped security and efficiency fixes to Hydentity and the Hydex Router",
+      "Designed and built the Hydex Name Service: on-chain, stateless, encrypted",
     ],
   },
   {
     company: "Nebula",
-    role: "Founder, acquired by Talis",
+    role: "Founder, acquired by",
+    acquirer: { name: "Talis", url: "https://talis.art/" },
     years: "2023 – 2024",
-    homeOnly: true,
+    dates: "2023 – 2024",
+    points: ["Open-source NFT marketplace on CosmWasm; $75K+ TVL within three months"],
+  },
+  {
+    company: "Copperhead Software",
+    role: "Co-founder, acqui-hired by",
+    acquirer: { name: "EYEKON", url: "https://eyekonstudio.com/" },
+    years: "2022 – 2023",
+    dates: "Jul 2022 – Feb 2023",
+    points: ["Three-person contract development shop, started with two friends"],
   },
   {
     company: "CargoLabs",
@@ -72,8 +83,8 @@ const jobs = [
     years: "2023 – 2024",
     dates: "Dec 2023 – Aug 2024",
     points: [
-      "Deployed staking contracts across 7 chains, plus the APIs managing user data and funds",
-      "Front-end development and performance tuning for distributed systems at scale",
+      "Deployed staking contracts on 7 chains and the APIs for user data and funds",
+      "Front-end work and performance tuning for distributed systems at scale",
     ],
   },
   {
@@ -92,12 +103,8 @@ const jobs = [
 // Resume (design 1f).
 const resume = {
   profile:
-    "Blockchain and systems engineer: Solana smart contracts, platform security and high-TVL infrastructure. Shipped contracts securing $30M+ and owned security for a full platform relaunch.",
+    "18-year-old blockchain and systems engineer: Solana smart contracts, platform security and high-TVL infrastructure. Shipped contracts securing $30M+, owned security for a full platform relaunch, and started two companies: one acquired, one acqui-hired.",
   projects: [
-    {
-      name: "Nebula",
-      text: "Acquired by Talis in 2024. Open-source NFT marketplace on CosmWasm: stateless collection management, minting and exchange. $75K+ TVL in under three months.",
-    },
     {
       name: "SolChess",
       text: "P2P chess for SOL and USDC on Elo-rated games, with in-house bots. Engine, matchmaking, UI, rating and anticheat built from scratch.",
